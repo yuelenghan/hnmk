@@ -1,0 +1,556 @@
+Tue Jun 18 11:32:51 CST 2013  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
+Tue Jun 18 11:32:51 CST 2013   [info] ************************************************************** 
+Tue Jun 18 11:32:51 CST 2013   [info] Starting Jakarta Velocity v1.3.1
+Tue Jun 18 11:32:51 CST 2013   [info] RuntimeInstance initializing.
+Tue Jun 18 11:32:51 CST 2013   [info] Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+Tue Jun 18 11:32:51 CST 2013   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Tue Jun 18 11:32:51 CST 2013   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Tue Jun 18 11:32:51 CST 2013   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Tue Jun 18 11:32:51 CST 2013   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:32:51 CST 2013   [info] FileResourceLoader : initialization starting.
+Tue Jun 18 11:32:51 CST 2013   [info] FileResourceLoader : adding path 'F:\workspace\hodeframe2012_hnmk\src\main\webapp'
+Tue Jun 18 11:32:51 CST 2013   [info] FileResourceLoader : initialization complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Resource Loader Instantiated: com.opensymphony.webwork.views.velocity.WebWorkResourceLoader
+Tue Jun 18 11:32:51 CST 2013   [info] ClasspathResourceLoader : initialization starting.
+Tue Jun 18 11:32:51 CST 2013   [info] ClasspathResourceLoader : initialization complete.
+Tue Jun 18 11:32:51 CST 2013   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Tue Jun 18 11:32:51 CST 2013   [info] Default ResourceManager initialization complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Tue Jun 18 11:32:51 CST 2013   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Tue Jun 18 11:32:51 CST 2013   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Tue Jun 18 11:32:51 CST 2013   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Tue Jun 18 11:32:51 CST 2013   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Tue Jun 18 11:32:51 CST 2013   [info] Loaded User Directive: com.opensymphony.webwork.views.velocity.ParamDirective
+Tue Jun 18 11:32:51 CST 2013   [info] Loaded User Directive: com.opensymphony.webwork.views.velocity.TagDirective
+Tue Jun 18 11:32:51 CST 2013   [info] Loaded User Directive: com.opensymphony.webwork.views.velocity.BodyTagDirective
+Tue Jun 18 11:32:51 CST 2013   [info] Created: 20 parsers.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : initialization starting.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : adding VMs from VM library template : webwork.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #bean( bean_name name ) : source = webwork.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #includeservlet( name ) : source = webwork.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #url( name ) : source = webwork.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #property( object property ) : source = webwork.vm
+Tue Jun 18 11:32:51 CST 2013   [info] ResourceManager : found webwork.vm with loader com.opensymphony.webwork.views.velocity.WebWorkResourceLoader
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro :  VM library template macro registration complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : adding VMs from VM library template : config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_htmlSpecChars( str rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_nl2br( str rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_checkIndexOfStr( strSource strCheck rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getStrAryByString( strSource rtnArr ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getStrAryByString1( strSource strsplit rtnArr ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_subStr( str start length isNeedMore rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_toInt( str rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_toFloat( str rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getFileList( str rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getFileExt( str rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_checkInArr( val arr rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getIntAryByString( str rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_checkInStr( val string rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getCompareTo( strSource strCompare rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getCompareToByFloat( strSource strCompare rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getFormatDate( strDate strFormat strRtnFormat strRtnVal ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getNowDateByFormat( strFormat strRtnVal ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_replaceNbsp2( strOldContent strRtnVal ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_like_array( val arr isFirstCompare rtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getIntYearMonth( strFormat rtnValue ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_replaceNbsp2( strOldContent strRtnVal ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getformatMoney( strMoney strRtnVal ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getformatMoney_1( strMoney strRtnVal ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getconvertMoney( strMoney strRtnVal ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getStringByInt( intNumber1 intNumber2 intNumberLength transAfterNum ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getStrAfterFile( fileName rtnFile ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getStrWebFile( fileName rtnFile ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getDoubleDivByString( str1 str2 isPercent strBeforeInfo strAfterInfo strRtnFormat rtnValue ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getDoubleSumByString( str1 strBeforeInfo strAfterInfo strRtnFormat rtnValue ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_getDoubleSubByString( str1 str2 strBeforeInfo strAfterInfo strRtnFormat rtnValue ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysBean_convertMonth( i strRtn ) : source = config/macro/hodeSysBean.vm
+Tue Jun 18 11:32:51 CST 2013   [info] ResourceManager : found config/macro/hodeSysBean.vm with loader com.opensymphony.webwork.views.velocity.WebWorkResourceLoader
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro :  VM library template macro registration complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : adding VMs from VM library template : config/macro/applyItem.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #applyItem_getItemList( intCreateUser intCreateGroup applyItemList ) : source = config/macro/applyItem.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #applyMaterial_getMaterialList( intCreateUser intCreateGroup strDictionary applyMaterialList ) : source = config/macro/applyItem.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #applyMaterial_getMaterialList_forEdit( intTrainApplyID trainApplyMaterialList ) : source = config/macro/applyItem.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #applyTeacher_getTeacherList( intCreateUser intCreateGroup applyTeacherList ) : source = config/macro/applyItem.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #applyTeacher_getTeacherList2( intCreateUser intCreateGroup intDictionary applyTeacherList2 ) : source = config/macro/applyItem.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #applyTeacher_getTrainApplyTeacherList( intTrainApplyID applyTeacherList3 ) : source = config/macro/applyItem.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #applyCourse_getTrainApplyCourseList( intCreateUser intCreateGroup strDictionary applyCourseList ) : source = config/macro/applyItem.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #applyCourse_getTrainApplyCourseList_forEdit( intTrainApplyID trainApplyCourseList ) : source = config/macro/applyItem.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #checkCourse_getTrainCheckCourseList_forEdit( intTrainCheckID trainCheckCourseList ) : source = config/macro/applyItem.vm
+Tue Jun 18 11:32:51 CST 2013   [info] ResourceManager : found config/macro/applyItem.vm with loader com.opensymphony.webwork.views.velocity.WebWorkResourceLoader
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro :  VM library template macro registration complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : adding VMs from VM library template : config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlHidden( name value ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlText( name value maxlength size readonly ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlText1( name value maxlength size readonly ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlDate( name value isNeedLongTime ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlFile( name value ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlMediaFile( name value ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlTextArea( name idName value rows cols readonly isHidden ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlRadio( name value checkVal titleVal isDisabled clickVal lable ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlCheckbox( name value checkVal titleVal isDisabled clickVal lable ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlButton( name value onclick ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlReset( name value ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlSubmit( name value ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlPassword( name value ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlImgBtn( name src ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysHTMLUI_htmlImgBtn1( imgURL clickVal titleVal isNeedHandle ) : source = config/macro/hodeSysHTMLUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] ResourceManager : found config/macro/hodeSysHTMLUI.vm with loader com.opensymphony.webwork.views.velocity.WebWorkResourceLoader
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro :  VM library template macro registration complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : adding VMs from VM library template : config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TableBeginSearch( actionName formName isShow ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TableBegin( intIsPos ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TableEnd( ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_MainBodyHeader( isNeedForm formName methodType ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_MainBodyFoot( isNeedForm ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TrBeginMainBody( intIsPos ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TrBegin( ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TdEnd( ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TrEnd( ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TdStart( colspan rowspan ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TdEnd( ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TdMainBody( content align width size ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TdCheckBoxMainTitle( ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TdCheckBoxMainBody( isDisabled objIntID ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TdMainOpt( optType title actionName msg intID target ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_TdMainLinkOpt( optType title confirmInfo actionName ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_fillMain( col ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_leftFrameHeader( title tblHeight ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_leftTblFooter( tblHeight ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_EditBodyHeader( actionName onSubmit methodType isNeedMultipart ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_EditBodyFoot( optArr colspan ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_optImg( optType colspan align ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showSearchText( label colspan necessary name value size maxlength readonly ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showText( label colspan necessary name value size maxlength readonly ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showCheckbox( label colspan necessary name value checkVal isDisabled ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showDate( label colspan necessary name value isNeedLongTime ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showTextArea( label colspan necessary name value rows cols readonly ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showFile( label colspan necessary name value ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showMediaFile( label colspan necessary name value ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showPassword( label colspan necessary name value readonly ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showEditor( label colspan necessary name value style width height ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showMsg( idName label colspan necessary value intIsPos ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showPage( actionName formName addBtn addBtnTitle delBtn deleteConfirm needPagination ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_optMultiFile( strName fileModelName strFileList colspan necessary tableName isNeedRemart ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_optSingleFile( strName fileModelName strAttrContent strAttrSourceName colspan necessary isShowDelete ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_optViewSingleFile( label colspan necessary align strFileList ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_optViewSingleFile1( strFileList ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_optViewMultiFile( label colspan necessary align strFileList ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_optViewMultiFile1( strFileList ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_optMediaFileExplorer( strName strFileList colspan width height ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showPic( strFileList width height breakNum ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showPagePic( id strFileList width height ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_NotFoundListInfo( breakNum ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_NotPermitInfo( breakNum ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_getNearYear( strName intSelectID ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_getMonth( strName intSelectID ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #hodeSysUI_showPic( strFileList width height breakNum ) : source = config/macro/hodeSysUI.vm
+Tue Jun 18 11:32:51 CST 2013  [error] VM #hodeSysUI_optViewSingleFile1: error : too few arguments to macro. Wanted 1 got 0
+Tue Jun 18 11:32:51 CST 2013  [error] VM #hodeSysUI_optViewMultiFile1: error : too few arguments to macro. Wanted 1 got 0
+Tue Jun 18 11:32:51 CST 2013   [info] ResourceManager : found config/macro/hodeSysUI.vm with loader com.opensymphony.webwork.views.velocity.WebWorkResourceLoader
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro :  VM library template macro registration complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : adding VMs from VM library template : config/macro/hodeCustom.vm
+Tue Jun 18 11:32:51 CST 2013   [info] ResourceManager : found config/macro/hodeCustom.vm with loader com.opensymphony.webwork.views.velocity.WebWorkResourceLoader
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro :  VM library template macro registration complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : adding VMs from VM library template : config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getSessionUser( user ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getGroupType( name intVal readonly ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getGroupTypeName( intVal ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getGroupFlag( name intVal readonly ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getGroupFlagName( intVal ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getGroupModelById( intID groupInfo ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getGroupNameByIds( intGroupIDs strGroupName ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getAllGroupIdsByFatherId( intGroupID intType strGroupIDs ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getAllGroupListByFatherId( intGroupID intType strGroupList ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getAllFatherIdsById( intGroupID intType strIntFatherIds ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getChildGroupListByFatherId( intGroupID intType strGroupList ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getPrivailegeModelById( intID privailegeInfo ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getPrivilegeType( name intVal readonly ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getPrivilegeTypeName( intVal ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getPrivilegeLevel( name intVal readonly ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getPrivilegeLevelName( intVal rtn ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getUserModelByInfo( intID strAccount userInfo ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getUserAccountAndNameByID( intID rtn ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getUnitModelByGroupID( intGroupID unitModel ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getModuleModelById( intID moduleInfo ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getuserModelByModuleCode( strModuleCode userList ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_compilePrivilege( privilege privileges complieLength allow ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getAllObjectList( objList ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #rbac_getChildListByFaterID( intFaterID objList ) : source = config/rbac/macro/rbac.vm
+Tue Jun 18 11:32:51 CST 2013   [info] ResourceManager : found config/rbac/macro/rbac.vm with loader com.opensymphony.webwork.views.velocity.WebWorkResourceLoader
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro :  VM library template macro registration complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : adding VMs from VM library template : config/dictionary/macro/dictionary.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #dictionary_getDictionaryFirstInfo( intType obj_dictionary_Info ) : source = config/dictionary/macro/dictionary.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #dictionary_getDictionaryInfo( intType strKey obj_dictionary_Info ) : source = config/dictionary/macro/dictionary.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #dictionary_getDictionaryValue( intType strKey strRtnValue ) : source = config/dictionary/macro/dictionary.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #dictionary_getList( intType blnFirst returnList ) : source = config/dictionary/macro/dictionary.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #dictionary_getSelectKeyAndVal( name intType checked readType intIsNeedAll intIsKey ) : source = config/dictionary/macro/dictionary.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #dictionary_getSelectKeyAndVal2( name intType checked readType intIsNeedAll intIsKey ) : source = config/dictionary/macro/dictionary.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #dictionary_getSelectKeyAndVal3( name intType intIsKey ) : source = config/dictionary/macro/dictionary.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #dictionary_getFirstKeyAndVal( intType firstKey ) : source = config/dictionary/macro/dictionary.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #dictionary_getButtonKeyAndVal( name intType checked strButtonType strNbsp intIsKey ) : source = config/dictionary/macro/dictionary.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #dictionary_getStrKeyAndVal( intType checked strNbsp intIsKey ) : source = config/dictionary/macro/dictionary.vm
+Tue Jun 18 11:32:51 CST 2013   [info] ResourceManager : found config/dictionary/macro/dictionary.vm with loader com.opensymphony.webwork.views.velocity.WebWorkResourceLoader
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro :  VM library template macro registration complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : adding VMs from VM library template : config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_paragraphList( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_fontnameList( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_fontsizeList( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_doZoomList( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_fromsys( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_tileType( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_roll( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_align( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_hyperlink( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_linktarget( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_linkanchor( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_scrolling( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_filter( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_imgAlign( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_symbalContent1( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_symbalContent2( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_symbalContent3( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_symbalContent4( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_symbalContent5( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_symbalContent6( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_tableAlign( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_borderStyle( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_cellAlign( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #webEditor_cellValign( ) : source = config/webeditor/macro/webeditor.vm
+Tue Jun 18 11:32:51 CST 2013   [info] ResourceManager : found config/webeditor/macro/webeditor.vm with loader com.opensymphony.webwork.views.velocity.WebWorkResourceLoader
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro :  VM library template macro registration complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : adding VMs from VM library template : config/message/macro/message.vm
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : added new VM : #message_getNewReceiveList( intUserID intOffset blUseImg length ) : source = config/message/macro/message.vm
+Tue Jun 18 11:32:51 CST 2013  [error] VM #hodeSysBean_subStr: error : too few arguments to macro. Wanted 5 got 3
+Tue Jun 18 11:32:51 CST 2013   [info] ResourceManager : found config/message/macro/message.vm with loader com.opensymphony.webwork.views.velocity.WebWorkResourceLoader
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro :  VM library template macro registration complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : adding VMs from VM library template : config/workflownormal/macro/workflownormal.vm
+Tue Jun 18 11:32:51 CST 2013  [error] ResourceManager : unable to find resource 'config/workflownormal/macro/workflownormal.vm' in any resource loader.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : error using  VM library template config/workflownormal/macro/workflownormal.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'config/workflownormal/macro/workflownormal.vm'
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro :  VM library template macro registration complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : messages on  : VM system will output logging messages
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
+Tue Jun 18 11:32:51 CST 2013   [info] Velocimacro : initialization complete.
+Tue Jun 18 11:32:51 CST 2013   [info] Velocity successfully started.
+Tue Jun 18 11:32:51 CST 2013   [info] ResourceManager : found /WEB-INF/vm/index/login.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:32:59 CST 2013   [info] ResourceManager : found /WEB-INF/vm/index/index.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:32:59 CST 2013   [info] ResourceManager : found /WEB-INF/vm/index/bottom.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:32:59 CST 2013   [info] ResourceManager : found /WEB-INF/vm/simple/Footer.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:32:59 CST 2013   [info] ResourceManager : found /WEB-INF/vm/index/mainBodyFrame.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:32:59 CST 2013   [info] ResourceManager : found /WEB-INF/vm/index/main.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:32:59 CST 2013   [warn] org.apache.velocity.runtime.exception.ReferenceException: reference : template = /WEB-INF/vm/index/main.vm [line 8,column 60] : $user.intAccountModel is not a valid reference.
+Tue Jun 18 11:32:59 CST 2013   [warn] org.apache.velocity.runtime.exception.ReferenceException: reference : template = /WEB-INF/vm/index/main.vm [line 10,column 60] : $user.intTemplate is not a valid reference.
+Tue Jun 18 11:32:59 CST 2013   [warn] org.apache.velocity.runtime.exception.ReferenceException: reference : template = /WEB-INF/vm/index/main.vm [line 20,column 68] : $user.intRoleIDs is not a valid reference.
+Tue Jun 18 11:32:59 CST 2013   [warn] org.apache.velocity.runtime.exception.ReferenceException: reference : template = /WEB-INF/vm/index/main.vm [line 21,column 60] : $user.strRoleNames is not a valid reference.
+Tue Jun 18 11:33:00 CST 2013   [info] ResourceManager : found /WEB-INF/vm/train/apply/readme.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:00 CST 2013  [error] VM #hodeSysUI_leftFrameHeader: error : too few arguments to macro. Wanted 2 got 1
+Tue Jun 18 11:33:00 CST 2013   [info] ResourceManager : found /WEB-INF/vm/index/showLeftFrm1.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:00 CST 2013   [info] ResourceManager : found /WEB-INF/vm/simple/Header_left.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:00 CST 2013  [error] VM error : hodeSysUI_leftFrameHeader. Null AST
+Tue Jun 18 11:33:00 CST 2013   [info] ResourceManager : found /WEB-INF/vm/simple/Footer_left.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:00 CST 2013   [info] ResourceManager : found /WEB-INF/vm/simple/Header_mainbody.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:01 CST 2013   [info] ResourceManager : found /WEB-INF/vm/train/apply/showSearchList.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:01 CST 2013   [info] ResourceManager : found /WEB-INF/vm/simple/Tpl_BannerHeaderCom.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerHeaderCom.vm [line 7, column 1]
+Tue Jun 18 11:33:01 CST 2013   [info] ResourceManager : found /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 14, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 20, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/train/apply/showSearchList.vm [line 7, column 136] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013   [info] ResourceManager : found /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 14, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 16, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 21, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 23, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 26, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 28, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of != expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/apply/showSearchList.vm [line 1, column 61] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/apply/showSearchList.vm [line 1, column 28] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013   [info] ResourceManager : found /WEB-INF/vm/simple/Tpl_FormFooter.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 14, column 1]
+Tue Jun 18 11:33:01 CST 2013   [info] ResourceManager : found /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 2, column 38] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 9, column 38] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 17, column 38] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 21, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 23, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 18]
+Tue Jun 18 11:33:01 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 42]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 29, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 30, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 33, column 44] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 36, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 37, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 40, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 52, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 57, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 64, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 67, column 43] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 72, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 77, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 99, column 32]
+Tue Jun 18 11:33:01 CST 2013  [error] Left side ($checkBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 107, column 32]
+Tue Jun 18 11:33:01 CST 2013  [error] Right side of range operator [n..m] has null value. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 112, column 32]
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 119, column 55] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/apply/showSearchList.vm [line 6, column 28] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/apply/showSearchList.vm [line 7, column 35] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 14, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 21, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 23, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 26, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 28, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/apply/showSearchList.vm [line 1, column 28] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 2, column 38] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 9, column 38] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 17, column 38] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 21, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 23, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 18]
+Tue Jun 18 11:33:01 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 42]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 29, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 30, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 33, column 44] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 36, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 37, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 40, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 52, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 57, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 67, column 43] (ASTEQNode)
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 72, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 77, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 99, column 32]
+Tue Jun 18 11:33:01 CST 2013  [error] Left side ($checkBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 107, column 32]
+Tue Jun 18 11:33:01 CST 2013  [error] Right side of range operator [n..m] has null value. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 112, column 32]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 14, column 1]
+Tue Jun 18 11:33:01 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 23, column 1]
+Tue Jun 18 11:33:03 CST 2013   [info] ResourceManager : found /WEB-INF/vm/train/student/showSignUpDetail.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerHeaderCom.vm [line 7, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 14, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 20, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/train/student/showSignUpDetail.vm [line 7, column 136] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 14, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 16, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 21, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 23, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 26, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 28, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of != expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showSignUpDetail.vm [line 1, column 61] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showSignUpDetail.vm [line 1, column 28] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 14, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 2, column 38] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 9, column 38] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 17, column 38] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 21, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 23, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 18]
+Tue Jun 18 11:33:03 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 42]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 29, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 30, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 33, column 44] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 36, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 37, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 40, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 52, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 57, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 64, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 67, column 43] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 72, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 77, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 99, column 32]
+Tue Jun 18 11:33:03 CST 2013  [error] Left side ($checkBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 107, column 32]
+Tue Jun 18 11:33:03 CST 2013  [error] Right side of range operator [n..m] has null value. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 112, column 32]
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 119, column 55] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showSignUpDetail.vm [line 6, column 28] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showSignUpDetail.vm [line 7, column 35] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 14, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 21, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 23, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 26, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 28, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showSignUpDetail.vm [line 1, column 28] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 2, column 38] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 9, column 38] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 17, column 38] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 21, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 23, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 18]
+Tue Jun 18 11:33:03 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 42]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 29, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 30, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 33, column 44] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 36, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 37, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 40, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 52, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 57, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 67, column 43] (ASTEQNode)
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 72, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 77, column 1]
+Tue Jun 18 11:33:03 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 99, column 32]
+Tue Jun 18 11:33:03 CST 2013  [error] Left side ($checkBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 107, column 32]
+Tue Jun 18 11:33:03 CST 2013  [error] Right side of range operator [n..m] has null value. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 112, column 32]
+Tue Jun 18 11:33:04 CST 2013   [info] ResourceManager : found /WEB-INF/vm/train/student/addImage.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:04 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerHeaderCom.vm [line 7, column 1]
+Tue Jun 18 11:33:04 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 14, column 1]
+Tue Jun 18 11:33:04 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 20, column 1]
+Tue Jun 18 11:33:04 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 26, column 1]
+Tue Jun 18 11:33:04 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 28, column 1]
+Tue Jun 18 11:33:04 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/addImage.vm [line 4, column 110] (ASTEQNode)
+Tue Jun 18 11:33:04 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/addImage.vm [line 4, column 131] (ASTEQNode)
+Tue Jun 18 11:33:04 CST 2013   [info] ResourceManager : found /WEB-INF/vm/jsvm/validator.js.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:04 CST 2013   [info] ResourceManager : found /WEB-INF/vm/train/student/addImportForm.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:04 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerHeaderCom.vm [line 7, column 1]
+Tue Jun 18 11:33:04 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 14, column 1]
+Tue Jun 18 11:33:04 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 20, column 1]
+Tue Jun 18 11:33:04 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 26, column 1]
+Tue Jun 18 11:33:04 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 28, column 1]
+Tue Jun 18 11:33:04 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/addImportForm.vm [line 4, column 110] (ASTEQNode)
+Tue Jun 18 11:33:04 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/addImportForm.vm [line 4, column 131] (ASTEQNode)
+Tue Jun 18 11:33:04 CST 2013  [error] Left side ($!showWidth) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/train/student/addImportForm.vm [line 4, column 27]
+Tue Jun 18 11:33:04 CST 2013  [error] Left side ($!showWidth) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/train/student/addImportForm.vm [line 4, column 48]
+Tue Jun 18 11:33:04 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/addImportForm.vm [line 7, column 87] (ASTEQNode)
+Tue Jun 18 11:33:04 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/addImportForm.vm [line 7, column 108] (ASTEQNode)
+Tue Jun 18 11:33:04 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/addImportForm.vm [line 9, column 136] (ASTEQNode)
+Tue Jun 18 11:33:04 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/addImportForm.vm [line 9, column 157] (ASTEQNode)
+Tue Jun 18 11:33:05 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerHeaderCom.vm [line 7, column 1]
+Tue Jun 18 11:33:05 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 14, column 1]
+Tue Jun 18 11:33:05 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 20, column 1]
+Tue Jun 18 11:33:05 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 26, column 1]
+Tue Jun 18 11:33:05 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 28, column 1]
+Tue Jun 18 11:33:05 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/addImage.vm [line 4, column 110] (ASTEQNode)
+Tue Jun 18 11:33:05 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/addImage.vm [line 4, column 131] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerHeaderCom.vm [line 7, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 14, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 20, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/train/student/showSignUpDetail.vm [line 7, column 136] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 14, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 16, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 21, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 23, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 26, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 28, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of != expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showSignUpDetail.vm [line 1, column 61] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showSignUpDetail.vm [line 1, column 28] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 14, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 2, column 38] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 9, column 38] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 17, column 38] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 21, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 23, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 18]
+Tue Jun 18 11:33:08 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 42]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 29, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 30, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 33, column 44] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 36, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 37, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 40, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 52, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 57, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 64, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 67, column 43] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 72, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 77, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 99, column 32]
+Tue Jun 18 11:33:08 CST 2013  [error] Left side ($checkBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 107, column 32]
+Tue Jun 18 11:33:08 CST 2013  [error] Right side of range operator [n..m] has null value. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 112, column 32]
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 119, column 55] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showSignUpDetail.vm [line 6, column 28] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showSignUpDetail.vm [line 7, column 35] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 14, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 21, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 23, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 26, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 28, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showSignUpDetail.vm [line 1, column 28] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 2, column 38] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 9, column 38] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 17, column 38] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 21, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 23, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 18]
+Tue Jun 18 11:33:08 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 42]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 29, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 30, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 33, column 44] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 36, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 37, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 40, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 52, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 57, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 67, column 43] (ASTEQNode)
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 72, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 77, column 1]
+Tue Jun 18 11:33:08 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 99, column 32]
+Tue Jun 18 11:33:08 CST 2013  [error] Left side ($checkBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 107, column 32]
+Tue Jun 18 11:33:08 CST 2013  [error] Right side of range operator [n..m] has null value. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 112, column 32]
+Tue Jun 18 11:33:09 CST 2013   [info] ResourceManager : found /WEB-INF/vm/train/student/showStudentList.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerHeaderCom.vm [line 7, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 14, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 20, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/train/student/showStudentList.vm [line 7, column 136] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 14, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 16, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 21, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 23, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 26, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 28, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of != expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showStudentList.vm [line 1, column 61] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showStudentList.vm [line 1, column 28] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_BannerFooterCom.vm [line 14, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 2, column 38] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 9, column 38] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 17, column 38] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 21, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 23, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 18]
+Tue Jun 18 11:33:09 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 42]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 29, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 30, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 33, column 44] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 36, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 37, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 40, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 52, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 57, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 64, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 67, column 43] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 72, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 77, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 99, column 32]
+Tue Jun 18 11:33:09 CST 2013  [error] Left side ($checkBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 107, column 32]
+Tue Jun 18 11:33:09 CST 2013  [error] Right side of range operator [n..m] has null value. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 112, column 32]
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 119, column 55] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showStudentList.vm [line 6, column 28] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showStudentList.vm [line 7, column 35] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 14, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 21, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 23, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 26, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_FormHeaderCom.vm [line 28, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/train/student/showStudentList.vm [line 1, column 28] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 2, column 38] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 9, column 38] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 17, column 38] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 21, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 23, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 18]
+Tue Jun 18 11:33:09 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 24, column 42]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 29, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 30, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.String, right = class java.lang.Integer. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 33, column 44] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 36, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 37, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 40, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 52, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 57, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 64, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] Error in evaluation of == expression. Both arguments must be of the same Class. Currently left = class java.lang.Integer, right = class java.lang.String. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 67, column 43] (ASTEQNode)
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 72, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] RHS of #set statement is null. Context will not be modified. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 77, column 1]
+Tue Jun 18 11:33:09 CST 2013  [error] Left side ($closeBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 99, column 32]
+Tue Jun 18 11:33:09 CST 2013  [error] Left side ($checkBtn) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 107, column 32]
+Tue Jun 18 11:33:09 CST 2013  [error] Right side of range operator [n..m] has null value. Operation not possible. /WEB-INF/vm/simple/Tpl_MainBtnPageCom.vm [line 112, column 32]
+Tue Jun 18 11:33:11 CST 2013   [info] ResourceManager : found /WEB-INF/vm/index/loginout.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Jun 18 11:33:11 CST 2013   [info] ResourceManager : found /WEB-INF/vm/index/loginFrm.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader

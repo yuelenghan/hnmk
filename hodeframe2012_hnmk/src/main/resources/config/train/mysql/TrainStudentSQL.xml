@@ -83,7 +83,7 @@
 	SELECT *
 	FROM train_student_detail
 	WHERE intMainID = $intMainID$
-	order by intID
+	order by intIndex,intID
   </select>
 
    <select id="getTrainStudentByIntMainID" resultClass="trainStudentModel" parameterClass="trainStudentModel">
@@ -272,7 +272,8 @@
 		strStudentPic1,
 		strStudentPic2,
 		strStudentPic3,
-		strStudentPic4
+		strStudentPic4,
+		intIndex
 		)
 	VALUES (
 		#intMainID#,
@@ -297,7 +298,8 @@
 		#strStudentPic1#,
 		#strStudentPic2#,
 		#strStudentPic3#,
-		#strStudentPic4#
+		#strStudentPic4#,
+		#intIndex#
 		)
   </insert>
 

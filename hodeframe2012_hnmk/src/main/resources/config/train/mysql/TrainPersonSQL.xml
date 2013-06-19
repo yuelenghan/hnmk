@@ -148,7 +148,8 @@
 		strStudentPic4,
 		intIsSignUp,
 		strTrainType,
-		strTrainUnitName
+		strTrainUnitName,
+		intIndex
 		)
 	VALUES (
 		#intMainID#,
@@ -176,7 +177,8 @@
 		#strStudentPic4#,
 		#intIsSignUp#,
 		#strTrainType#,
-		#strTrainUnitName#
+		#strTrainUnitName#,
+		#intIndex#
 		)
   </insert>
 

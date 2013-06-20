@@ -360,7 +360,7 @@
 	<isGreaterThan prepend="AND" property="intIsLeader" compareValue="0">
 		intIsLeader != 0
 	</isGreaterThan>
-	order by intIsLeader asc,intID asc
+	order by intIndex,intID
   </select>
   <select id="getStudentListByGroupID" resultClass="trainStudentModel" parameterClass="trainStudentModel">
 	select *

@@ -25,7 +25,9 @@ import com.hode.train.util.MyFileUtil;
 import com.hode.train.util.MyStringUtil;
 
 public class TrainStudentService extends IbatisService {
-	private static final Logger logger = Logger.getLogger(TrainStudentService.class);
+
+	private static final Logger logger = Logger
+			.getLogger(TrainStudentService.class);
 
 	public List<TrainStudentDetailModel> addImportFinish(
 			TrainStudentModel trainStudentModel, String strScoreFile)
@@ -55,7 +57,7 @@ public class TrainStudentService extends IbatisService {
 				String strIndex = dataArr[i][0]; // 序号
 				try {
 					intIndex = Integer.parseInt(strIndex);
-					if(intIndex < 0) {
+					if (intIndex < 0) {
 						logger.error("序号必须为正整数！序号为：" + intIndex);
 						continue;
 					}
@@ -176,5 +178,19 @@ public class TrainStudentService extends IbatisService {
 				"showPageStudentList", trainStudentModel,
 				pagination.getIntStartNum(), pagination.getIntLineNum());
 
+	}
+
+	/**
+	 * 检查人员信息是否可以撤销
+	 * 通过考核申请的人员信息不能撤销
+	 * @param trainStudentModel
+	 * @return
+	 */
+	public boolean revokeCheck(TrainStudentModel trainStudentModel) {
+		int count = this.getRecordCount("revokeCheck", trainStudentModel);
+		if (count == 0) {
+			return true;
+		}
+		return false;
 	}
 }

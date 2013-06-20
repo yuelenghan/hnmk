@@ -229,6 +229,13 @@
 			<param name="permissionIDs"></param>
 			<interceptor-ref name="permissionStack"/>
 		</action>
+		
+		<action name="revokeStudentInfo" class="trainStudentAction" method="revokeStudentInfo">
+			<result name="success" type="chain">showStudentList</result>
+			<param name="hiddenParameter"></param>
+			<param name="permissionIDs"></param>
+			<interceptor-ref name="permissionStack"/>
+		</action>
     </package>
 
 </xwork>

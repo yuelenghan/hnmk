@@ -1,5 +1,14 @@
 ##页面头
 #parse("$action.getText('config.vmPath')/simple/Header_mainbody.vm")
+
+#hodeSysBean_checkInArr(11010100 $!permissionIDs $allow_11)	##三级培训班查看员
+#hodeSysBean_checkInArr(11010200 $!permissionIDs $allow_12)	##三级培训班填报员
+
+#hodeSysBean_checkInArr(11020100 $!permissionIDs $allow_21)	##省中心查看员
+#hodeSysBean_checkInArr(11020200 $!permissionIDs $allow_22)	##省中心审批员
+
+#hodeSysBean_checkInArr(11030100 $!permissionIDs $allow_31)	##公章管理员
+
 <SCRIPT LANGUAGE="JavaScript" src="$action.getText('config.prjName')/js/operation.js"></SCRIPT>
 ##设置参数
 ##-------------------------------------------------------------
@@ -113,6 +122,9 @@
 		#hodeSysUI_TdMainBody("上报" "center" "80" 0)
 	#else
 		#hodeSysUI_TdMainBody("状态" "center" "80" 0)
+		#if($allow_22)
+			#hodeSysUI_TdMainBody("撤销" "center" "80" 0)
+		#end
 	#end
 
 
@@ -142,6 +154,9 @@
 			<td width="40" align='center'><img src="$action.getText('config.prjName')/images/operator/opt_checked.gif" onclick="submitStudentInfo($objInfo.intID)" style="cursor:hand" alt="提交"></td>
 		#else
 			#hodeSysUI_TdMainBody("已上报" "center" "" 0)
+			#if($allow_22)
+			<td align="center"><input type="button" value="撤销" onclick="revokeStudentInfo($objInfo.intID)"></td>
+			#end
 		#end
 		#hodeSysUI_TdMainBody("<a href='viewForm.action?objInfo.intID=$objInfo.intID'>$!objInfo.strTrainUnitName" "center" "" 0)
 		#hodeSysUI_TdMainBody("<a href='viewForm.action?objInfo.intID=$objInfo.intID'>$!{objInfo.strTrainStartDate}到$!{objInfo.strTrainEndDate}" "center" "" 0)
@@ -189,6 +204,13 @@
 		//alert(intID);
 		if(confirm("确认上报人员信息？")) {
 			editDoc(document.frmMainList,'submitStudentInfo.action',intID,'','','','')
+		}
+	}
+	
+	function revokeStudentInfo(intID) {
+		//alert(intID);
+		if(confirm("撤销已经上报的人员信息？")) {
+			editDoc(document.frmMainList,'revokeStudentInfo.action',intID,'','','','')
 		}
 	}
 </script>

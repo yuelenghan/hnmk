@@ -539,7 +539,6 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>8.1.11.v20130520</version>
                 <configuration>
-                	<scanIntervalSeconds>5</scanIntervalSeconds>
                     <webApp>
                         <contextPath>/hodeframe2012_hnmk</contextPath>
                     </webApp>

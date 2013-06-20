@@ -981,4 +981,11 @@
   	where intIsSignUp = 1 and intIsProcess = 0
   	and strStudentIDCode = '$studentIDCode$'
   </select>
+  
+  <select id="revokeCheck" resultClass="int" parameterClass="trainStudentModel">
+    SELECT count(intID) AS intTotalNumber
+	FROM train_check
+	where intTrainApplyID = #intTrainApplyID#
+	and intCheckFlag = 9
+  </select>
 </sqlMap>

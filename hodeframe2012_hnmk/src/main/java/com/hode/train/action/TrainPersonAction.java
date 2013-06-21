@@ -17,6 +17,11 @@ import com.hode.train.service.TrainPersonService;
 import com.hode.train.util.ConstantUtil;
 import com.hode.train.util.TrainUtil;
 
+/**
+ * 
+ * @author lh
+ *
+ */
 public class TrainPersonAction extends AbstractBaseAction {
 
     private static final long serialVersionUID = -2493248430675063104L;

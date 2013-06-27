@@ -38,6 +38,10 @@ public class ProcessImageUtil {
 			TrainStudentDetailModel trainStudentDetailModel = (TrainStudentDetailModel) studentDetailList
 					.get(i);
 
+			if(trainStudentDetailModel.getIntIndex() == 0) {
+				trainStudentDetailModel.setIntIndex(i + 1);
+			}
+			
 			String newFileName = "";
 
 			for (int j = 0; j < fileListSize; j++) {

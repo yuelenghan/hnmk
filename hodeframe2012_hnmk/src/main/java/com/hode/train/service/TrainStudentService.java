@@ -44,7 +44,7 @@ public class TrainStudentService extends IbatisService {
 		List<TrainStudentDetailModel> existStudents = new ArrayList<TrainStudentDetailModel>();
 
 		for (int i = 0; i < dataArr.length; i++) {
-			String strIDCard = dataArr[i][8]; // 身份证号
+			String strIDCard = dataArr[i][8].trim(); // 身份证号
 			String strIDCardReg = "^(\\d{15}$|^\\d{18}$|^\\d{17}(\\d|X|x))$"; // 身份证号正则表达式
 			Pattern pattern = Pattern.compile(strIDCardReg);
 			Matcher matcher = pattern.matcher(strIDCard);

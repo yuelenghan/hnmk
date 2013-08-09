@@ -43,7 +43,7 @@
 
 		function showData(data) {
 			var trainUnitSelect = $("#trainUnitSelect");
-			var selectStr = "";
+			var selectStr = "<option vlaue=''></option>";
 
 			for(var i = 0; i < data.returnList.length; i ++) {
 				selectStr += "<option value='"+ data.returnList[i].unitName + "'>" + data.returnList[i].unitName + "</option>";
@@ -54,7 +54,7 @@
 
 
 			var trainUnitSelect2 = $("#trainUnitSelect2");
-			var selectStr2 = "";
+			var selectStr2 = "<option vlaue=''></option>";
 
 			for(var i = 0; i < data.returnList.length; i ++) {
 				selectStr2 += "<option value='"+ data.returnList[i].unitName + "'>" + data.returnList[i].unitName + "</option>";
@@ -254,6 +254,10 @@
 
 		function startImport() {
 			var trainUnit = $("#trainUnitSelect2").val();
+			if(trainUnit == "") {
+				alert("请选择培训机构！");
+				return;
+			}
 			var trainType2 = $("#trainType2").val();
 			$.ajax({
                 url : "/hodeframe2012_hnmk/servlet/dataFileUpload",
@@ -452,6 +456,10 @@
 
 		function startImport2() {
 			var trainUnit = $("#trainUnitSelect2").val();
+			if(trainUnit == "") {
+				alert("请选择培训机构！");
+				return;
+			}
 			$.ajax({
                 url : "/hodeframe2012_hnmk/servlet/imageFileUpload",
                 data : "flag=1&trainUnit="+trainUnit,
@@ -847,6 +855,7 @@
 
 	function signUp() {
 		//数据校验
+		var trainUnitSelect = $("#trainUnitSelect").val().replace(/[ ]/g,""); 
 		var studentPost = $("#studentPost").val().replace(/[ ]/g,"");
 		var studentTitle = $("#studentTitle").val().replace(/[ ]/g,"");
 		var studentName = $("#studentName").val().replace(/[ ]/g,"");
@@ -857,6 +866,10 @@
 		var studentRelation = $("#studentRelation").val().replace(/[ ]/g,"");
 		var strRand = $("#strRand").val().replace(/[ ]/g,"");
 
+		if(trainUnitSelect == "") {
+			alert("请选择培训机构！");
+			return;
+		}
 		if(studentPost == "") {
 			alert("请输入单位及部门！");
 			return;

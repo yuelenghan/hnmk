@@ -351,14 +351,17 @@ public class TrainStudentAction extends AbstractBaseAction {
 
 		int intTrainApplyID = ((TrainStudentModel) objInfo)
 				.getIntTrainApplyID();
+		//System.out.println("intTrainApplyID ====================== " + intTrainApplyID);
 		if (intTrainApplyID > 0) {
 			TrainApplyModel trainApplyModel = TrainUtil
 					.getTrainApplyByID(intTrainApplyID);
 			((TrainStudentModel) objInfo).setStrTrainUnitName(trainApplyModel
 					.getStrTrainUnitName());// 培训单位
-			String trainUnitId = this.ibatisService
-					.getObjectInfo("getRbacGroupByDesc",
-							trainApplyModel.getStrTrainUnitName()).toString();
+		//	System.out.println("trainApplyModel.getStrTrainUnitName() ======================" + trainApplyModel.getStrTrainUnitName());
+//			String trainUnitId = this.ibatisService
+//					.getObjectInfo("getRbacGroupByDesc",
+//							trainApplyModel.getStrTrainUnitName()).toString();
+			String trainUnitId = String.valueOf(trainApplyModel.getIntCreateGroupID());
 			((TrainStudentModel) objInfo).setIntTrainUnitID(Integer
 					.parseInt(trainUnitId)); // 培训单位id
 			((TrainStudentModel) objInfo).setStrTrainStartDate(trainApplyModel

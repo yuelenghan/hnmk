@@ -31,7 +31,7 @@
 							<td colspan=2 align='left' height=30 style="color:#000000;"><a href="../rbac/group/updateGroupSignForm.action" target="mainFrame">公章设置</td>
 						</tr>
 			##end
-			#if($user.intUserID == 1)
+			#if($user.intUserID == 1 || $allow_11||$allow_21)
 
 						<tr>
 							<td width="25"><img src="/hodeframe2012_hnmk/images/hnmk/ar.gif" width="13" height="13" /></td>

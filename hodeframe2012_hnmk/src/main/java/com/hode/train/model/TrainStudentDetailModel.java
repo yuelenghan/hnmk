@@ -68,6 +68,9 @@ public class TrainStudentDetailModel extends IbatisModel {
 	private List<Integer> mainIDList;
 	private String strTrainCountClass;
 
+	// 单个编辑学员信息
+	private String flag;
+
 	public int getIntMainID() {
 		return intMainID;
 	}
@@ -109,8 +112,7 @@ public class TrainStudentDetailModel extends IbatisModel {
 	}
 
 	public String getStrStudentQualifications() {
-		return (strStudentQualifications == null) ? ""
-				: strStudentQualifications;
+		return (strStudentQualifications == null) ? "" : strStudentQualifications;
 	}
 
 	public void setStrStudentQualifications(String strStudentQualifications) {
@@ -395,6 +397,14 @@ public class TrainStudentDetailModel extends IbatisModel {
 
 	public void setIntIndex(int intIndex) {
 		this.intIndex = intIndex;
+	}
+
+	public String getFlag() {
+		return flag;
+	}
+
+	public void setFlag(String flag) {
+		this.flag = flag;
 	}
 
 }

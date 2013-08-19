@@ -541,6 +541,12 @@
 				#mainIDList[]#
 			</iterate>
 		</isNotNull>
+		<isNotEmpty prepend="AND" property="strTrainUnitName">
+			strTrainUnitName = #strTrainUnitName#
+		</isNotEmpty>
+		<isNotEmpty prepend="AND" property="flag">
+			intIsSignUp = 1 and intIsProcess = 0
+		</isNotEmpty>
 		ORDER BY intID desc
 		LIMIT #intStart#,#intOffset#
   </select>
@@ -563,6 +569,12 @@
 				#mainIDList[]#
 			</iterate>
 		</isNotNull>
+		<isNotEmpty prepend="AND" property="strTrainUnitName">
+			strTrainUnitName = #strTrainUnitName#
+		</isNotEmpty>
+		<isNotEmpty prepend="AND" property="flag">
+			intIsSignUp = 1 and intIsProcess = 0
+		</isNotEmpty>
   </select>
   <select id="getObjectDetailInfo" resultClass="trainStudentDetailModel" parameterClass="trainStudentDetailModel">
      SELECT *

@@ -618,7 +618,7 @@ public class TrainStudentAction extends AbstractBaseAction {
 	@SuppressWarnings("unchecked")
 	public String showDetailList() {
 		int groupID = getUserSessionModel().getIntGroupID();
-
+		
 		boolean bln21 = StringUtil.in_array(11020100, getUserSessionModel()
 				.getIntPrivilegeIDs());// 省中心查看员
 		boolean bln22 = StringUtil.in_array(11020200, getUserSessionModel()
@@ -627,12 +627,15 @@ public class TrainStudentAction extends AbstractBaseAction {
 
 		} else {
 			// 如果是培训机构
-			List<Integer> mainIDList = ((TrainStudentService) ibatisService)
-					.getObjectList("getIntMainIDListByGroupID", groupID);
-			if (mainIDList != null && mainIDList.size() > 0) {
-				trainStudentDetailInfo.setMainIDList(mainIDList);
-			}
-
+			String groupName = getUserSessionModel().getStrGroupName();
+			trainStudentDetailInfo.setFlag("pxjg");
+//			List<Integer> mainIDList = ((TrainStudentService) ibatisService)
+//					.getObjectList("getIntMainIDListByGroupID", groupID);
+//			if (mainIDList != null && mainIDList.size() > 0) {
+//				trainStudentDetailInfo.setMainIDList(mainIDList);
+//			}
+			trainStudentDetailInfo.setIntMainID(0);
+			trainStudentDetailInfo.setStrTrainUnitName(groupName);
 		}
 
 		pagination.setUserSessionDM(getUserSessionModel());

@@ -24,7 +24,7 @@
 		 	document.documentElement.innerHTML=strHtmInstall+document.documentElement.innerHTML;
 		 }
 		 return LODOP;
-	     } else if (LODOP.VERSION<"6.1.4.5") {
+	     } else if (LODOP.VERSION<"6.1.5.7") {
 		if (navigator.userAgent.indexOf('Win64')>=0){
 	            if (navigator.appVersion.indexOf("MSIE")>=0) document.write(strHtm64_Update); else
 		    document.documentElement.innerHTML=strHtm64_Update+document.documentElement.innerHTML;

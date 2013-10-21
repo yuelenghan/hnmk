@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//src/main/resources/path.properties=UTF-8
 encoding//src/main/webapp/WEB-INF/vm/index=UTF-8
 encoding//src/main/webapp/WEB-INF/vm/train/student=UTF-8
 encoding/<project>=UTF-8

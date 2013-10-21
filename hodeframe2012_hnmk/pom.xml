@@ -537,12 +537,12 @@
     <properties>
     	<encoding>UTF-8</encoding>
     	
-        <record.pic.root.path>F:/server/apache-tomcat-7.0.40/webapps/PersonPic/</record.pic.root.path>
+        <record.pic.root.path>F:/Program Files/apache-tomcat-7.0.42/webapps/PersonPic/</record.pic.root.path>
         <record.pic.http.root.path>/PersonPic/</record.pic.http.root.path>
-        <train.pic.root.path>F:/server/apache-tomcat-7.0.40/webapps/train/student/</train.pic.root.path>
+        <train.pic.root.path>F:/Program Files/apache-tomcat-7.0.42/webapps/train/student/</train.pic.root.path>
         <train.pic.http.root.path>/train/student/</train.pic.http.root.path>
         <log4j.appender.file.path>c:/tmp/hodeframe2012_hnmk</log4j.appender.file.path>
-        <config.hode.realpath>F:/server/apache-tomcat-7.0.40/webapps/${project.name}/</config.hode.realpath>
+        <config.hode.realpath>F:/Program Files/apache-tomcat-7.0.42/webapps/${project.name}/</config.hode.realpath>
 
         <mysql.driverClassName>com.mysql.jdbc.Driver</mysql.driverClassName>
         <mysql.url>jdbc:mysql://localhost:3306/hodeframe2012_hnmk?useUnicode=true&amp;amp;characterEncoding=UTF-8</mysql.url>
@@ -554,16 +554,16 @@
         <profile>
             <id>remote</id>
             <properties>
-                <record.pic.root.path>C:/Program Files/apache-tomcat-7.0.33/webapps/PersonPic/</record.pic.root.path>
+                <record.pic.root.path>E:/apache-tomcat-7.0.42/webapps/PersonPic/</record.pic.root.path>
                 <record.pic.http.root.path>/PersonPic/</record.pic.http.root.path>
-                <train.pic.root.path>C:/Program Files/apache-tomcat-7.0.33/webapps/train/student/</train.pic.root.path>
+                <train.pic.root.path>E:/apache-tomcat-7.0.42/webapps/train/student/</train.pic.root.path>
                 <train.pic.http.root.path>/train/student/</train.pic.http.root.path>
-                <log4j.appender.file.path>c:/tmp/hodeframe2012_hnmk</log4j.appender.file.path>
-                <config.hode.realpath>C:/Program Files/apache-tomcat-7.0.33/webapps/${project.name}/</config.hode.realpath>
+                <log4j.appender.file.path>F:/tmp/hodeframe2012_hnmk</log4j.appender.file.path>
+                <config.hode.realpath>E:/apache-tomcat-7.0.42/webapps/${project.name}/</config.hode.realpath>
             
-       		 	<mysql.url>jdbc:mysql://ghtnsql001.mysql.rds.aliyuncs.com:3306/hodeframe2012_hnmk?useUnicode=true&amp;amp;characterEncoding=UTF-8</mysql.url>
-        		<mysql.username>ghtn_hnmk</mysql.username>
-        		<mysql.password>hbwj806</mysql.password>
+       		 	<mysql.url>jdbc:mysql://localhost:3306/hodeframe2012_hnmk?useUnicode=true&amp;amp;characterEncoding=UTF-8</mysql.url>
+        		<mysql.username>root</mysql.username>
+        		<mysql.password>1qaz2wsx</mysql.password>
             </properties>
         </profile>
 

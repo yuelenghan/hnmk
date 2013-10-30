@@ -72,7 +72,7 @@
 	#param( "delBtnTitle" "$action.getText('global.operation.delete')" )
 	#param( "delBtnOnClick" "deleteDoc(document.frmMainList,'del.action','',''" )
 	#param( "formName" "frmPaginationDown" )
-	#param( "actionName" "showSearchList.action" )
+	#param( "actionName" "printTicket.action" )
 	#param( "needHiddenParams" "true" )
 	#param( "needPagination" 0)
 #end
@@ -141,7 +141,7 @@
 	#param( "delBtnTitle" "$action.getText('global.operation.delete')" )
 	#param( "delBtnOnClick" "deleteDoc(document.frmMainList,'del.action','','')" )
 	#param( "formName" "frmPaginationDown" )
-	#param( "actionName" "showSearchList.action" )
+	#param( "actionName" "printTicket.action" )
 	#param( "needHiddenParams" "true" )
 	#param( "hiddenParams" "<INPUT TYPE='hidden' NAME='objSearch.intSysIsClearSearch' value=1>" )
 	#param( "needPagination" 1)

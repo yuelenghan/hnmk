@@ -130,9 +130,9 @@
 
 
 			<td>$intNowCount</td>
-			<td align="center">$!objInfo3.strStudentName_1</a></td>
-			<td align="center">$!objInfo3.strStudentSex_1</a></td>
-			<td align="center">$!objInfo3.strStudentIDCode_1</a></td>
+			<td align="center"><a href="../student/viewDetailForm.action?trainStudentDetailInfo.intID=$objInfo3.intID_1" target='_blank'>$!objInfo3.strStudentName_1</a></td>
+			<td align="center"><a href="../student/viewDetailForm.action?trainStudentDetailInfo.intID=$objInfo3.intID_1" target='_blank'>$!objInfo3.strStudentSex_1</a></td>
+			<td align="center"><a href="../student/viewDetailForm.action?trainStudentDetailInfo.intID=$objInfo3.intID_1" target='_blank'>$!objInfo3.strStudentIDCode_1</a></td>
 
 			<td align="center">$!objInfo3.strStudentPost_1</td>
 			<td align="center">$!objInfo3.strStudentTitles_1</td>

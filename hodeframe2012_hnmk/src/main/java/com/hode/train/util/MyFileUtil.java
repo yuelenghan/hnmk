@@ -1,15 +1,6 @@
 package com.hode.train.util;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -107,7 +98,7 @@ public class MyFileUtil {
     /**
      * 删除文件
      *
-     * @param list
+     * @param file
      */
     public static void deleteFile(File file) {
         if (file.exists()) {
@@ -303,7 +294,7 @@ public class MyFileUtil {
     /**
      * 校验解压缩得到的文件夹结构是否满足模版的要求
      *
-     * @param directory
+     * @param path
      * @return
      * @throws Exception
      */
